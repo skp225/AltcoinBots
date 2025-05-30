@@ -39,8 +39,8 @@ except ImportError as e:
         sys.exit(1)
 
 # Telegram configuration (same as in other scripts)
-TELEGRAM_TOKEN = '7208093088:AAEyAaIf__zr3QqW0UbWrhE6MSO6MRtH2Dg'
-CHAT_ID = '310580895'
+TELEGRAM_TOKEN = ''
+CHAT_ID = ''
 
 def send_telegram_message(message):
     """Send a message to Telegram."""
